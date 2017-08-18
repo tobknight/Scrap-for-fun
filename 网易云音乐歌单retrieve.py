@@ -6,7 +6,7 @@ count=0
 http='http://music.163.com/playlist?id='#http://music.163.com/playlist?id=
 https='https://music.163.com/playlist?id='
 
-ID=input('Enter your id:')#101152411
+ID=input('Enter your id:')
 
 url=urllib.request.urlopen(https+ID).read().decode('utf-8')
 
